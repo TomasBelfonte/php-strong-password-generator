@@ -48,7 +48,8 @@ function generatePassword($length)
         </div>
 
         <div>
-            <h1 class="text-primary text-center">La password generata è la seguente: <?php echo generatePassword($length) ?></h1>
+            <h1 class="text-primary text-center">La password generata è la seguente:</h1>
+            <h1 class="text-primary text-center"><?php echo generatePassword($length) ?></h1>
         </div>
     </div>
 </body>
